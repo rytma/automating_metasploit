@@ -4,11 +4,6 @@
 from MetasploitMethods import MetasploitMethods as MsfMethod
 
 class MetasploitManager(object):
-    JobList = 'job.list'
-    JobStop = 'job.stop'
-
-    _session = None
-
     def __init__(self, session):
         self._session = session
 
